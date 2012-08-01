@@ -76,35 +76,53 @@ h1 {
   margin-bottom: .3em;
 }
 
-/* line 107, ../sass/style.scss */
-article {
+/* line 109, ../sass/style.scss */
+article,
+ul,
+div {
   padding: 1em 0;
   background-color: rgba(255, 0, 0, 0.2);
   margin-bottom: 1em;
 }
 
-/* line 113, ../sass/style.scss */
-p {
+/* line 116, ../sass/style.scss */
+p,
+li {
   background-color: rgba(0, 170, 255, 0.2);
 }
 
-/* line 123, ../sass/style.scss */
-article {
+/* line 126, ../sass/style.scss */
+article, ul {
   width: 100%;
   *zoom: 1;
 }
 /* line 13, ../sass/style.scss */
-article:before, article:after {
+article:before, article:after, ul:before, ul:after {
   display: table;
   content: "";
 }
 /* line 18, ../sass/style.scss */
-article:after {
+article:after, ul:after {
   clear: both;
 }
 
-/* line 127, ../sass/style.scss */
-p {
+/* line 130, ../sass/style.scss */
+.photos {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 13, ../sass/style.scss */
+.photos:before, .photos:after {
+  display: table;
+  content: "";
+}
+/* line 18, ../sass/style.scss */
+.photos:after {
+  clear: both;
+}
+
+/* line 134, ../sass/style.scss */
+p, li {
   display: block;
   width: 100%;
   min-height: 28px;
@@ -117,24 +135,44 @@ p {
   *margin-left: 2.0744680846382977%;
 }
 /* line 35, ../sass/style.scss */
-p:first-child {
+p:first-child, li:first-child {
   margin-left: 0;
 }
 
-/* line 131, ../sass/style.scss */
-.three p {
+/* line 138, ../sass/style.scss */
+.introduction p {
   width: 31.914893614%;
   *width: 31.8617021246383%;
 }
 
-/* line 135, ../sass/style.scss */
-.two p {
+/* line 142, ../sass/style.scss */
+.photos img {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2.127659574%;
+  *margin-left: 2.0744680846382977%;
+  width: 31.914893614%;
+  *width: 31.8617021246383%;
+}
+/* line 35, ../sass/style.scss */
+.photos img:first-child {
+  margin-left: 0;
+}
+
+/* line 147, ../sass/style.scss */
+.about p {
   width: 48.93617020799999%;
   *width: 48.88297871863829%;
 }
 
-/* line 139, ../sass/style.scss */
-.four p {
+/* line 151, ../sass/style.scss */
+li {
   width: 23.404255317%;
   *width: 23.3510638276383%;
 }

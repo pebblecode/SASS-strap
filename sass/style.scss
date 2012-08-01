@@ -104,13 +104,16 @@ h1{
   margin-bottom: .3em;
 }
 
-article{
+article,
+ul,
+div{
   padding: 1em 0;
   background-color: hsla(0,100,50,.2);
   margin-bottom: 1em;
 }
 
-p{
+p,
+li{
   background-color: hsla(200,100,50,.2);
 }
 
@@ -120,23 +123,32 @@ p{
 // $include grid
 // ======================================================================================================
 
-article{
+article, ul{
   @include row-fluid;
 }
 
-p{
+.photos{
+  @include row-fluid; 
+}
+
+p, li{
   @include span;
 }
 
-.three p{
+.introduction p{
   @include span4;
 }
 
-.two p{
+.photos img{
+  @include span;
+  @include span4; 
+}
+
+.about p{
   @include span6;
 }
 
-.four p{
+li{
   @include span3;
 }
 
