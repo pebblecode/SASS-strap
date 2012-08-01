@@ -63,23 +63,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 5, ../sass/_fluid-grid.scss */
 .row-fluid, .introduction, .photos, .selling-points, .about {
   width: 100%;
   *zoom: 1;
 }
-/* line 13, ../sass/style.scss */
+/* line 10, ../sass/_fluid-grid.scss */
 .row-fluid:before, .introduction:before, .photos:before, .selling-points:before, .about:before, .row-fluid:after, .introduction:after, .photos:after, .selling-points:after, .about:after {
   display: table;
   content: "";
 }
-/* line 18, ../sass/style.scss */
+/* line 15, ../sass/_fluid-grid.scss */
 .row-fluid:after, .introduction:after, .photos:after, .selling-points:after, .about:after {
   clear: both;
 }
 
-/* line 23, ../sass/style.scss */
-.span, .introduction p, .photos img, .selling-points li, .about p {
+/* line 20, ../sass/_fluid-grid.scss */
+.span1, .span2, .photos img, .span3, .selling-points li, .span4, .introduction p, .span5, .span5, .span6, .about p, .span7, .span8, .span9, .span10, .span11, .span12 {
   display: block;
   width: 100%;
   min-height: 28px;
@@ -91,97 +91,97 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: 2.127659574%;
   *margin-left: 2.0744680846382977%;
 }
-/* line 35, ../sass/style.scss */
-.span:first-child, .introduction p:first-child, .photos img:first-child, .selling-points li:first-child, .about p:first-child {
+/* line 32, ../sass/_fluid-grid.scss */
+.span1:first-child, .span2:first-child, .photos img:first-child, .span3:first-child, .selling-points li:first-child, .span4:first-child, .introduction p:first-child, .span5:first-child, .span5:first-child, .span6:first-child, .about p:first-child, .span7:first-child, .span8:first-child, .span9:first-child, .span10:first-child, .span11:first-child, .span12:first-child {
   margin-left: 0;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 37, ../sass/_fluid-grid.scss */
 .span12 {
   width: 99.99999998999999%;
   *width: 99.94680850063828%;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 41, ../sass/_fluid-grid.scss */
 .span11 {
   width: 91.489361693%;
   *width: 91.4361702036383%;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 45, ../sass/_fluid-grid.scss */
 .span10 {
   width: 82.97872339599999%;
   *width: 82.92553190663828%;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 49, ../sass/_fluid-grid.scss */
 .span9 {
   width: 74.468085099%;
   *width: 74.4148936096383%;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 53, ../sass/_fluid-grid.scss */
 .span8 {
   width: 65.95744680199999%;
   *width: 65.90425531263828%;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 57, ../sass/_fluid-grid.scss */
 .span7 {
   width: 57.446808505%;
   *width: 57.3936170156383%;
 }
 
-/* line 64, ../sass/style.scss */
+/* line 61, ../sass/_fluid-grid.scss */
 .span6, .about p {
   width: 48.93617020799999%;
   *width: 48.88297871863829%;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 65, ../sass/_fluid-grid.scss */
 .span5 {
   width: 40.425531911%;
   *width: 40.3723404216383%;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 69, ../sass/_fluid-grid.scss */
 .span4, .introduction p {
   width: 31.914893614%;
   *width: 31.8617021246383%;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 73, ../sass/_fluid-grid.scss */
 .span3, .selling-points li {
   width: 23.404255317%;
   *width: 23.3510638276383%;
 }
 
-/* line 80, ../sass/style.scss */
+/* line 77, ../sass/_fluid-grid.scss */
 .span2, .photos img {
   width: 14.89361702%;
   *width: 14.8404255306383%;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 81, ../sass/_fluid-grid.scss */
 .span1 {
   width: 6.382978723%;
   *width: 6.329787233638298%;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 body {
   font: 1.2em/1.4 sans-serif;
   margin: 3em;
   color: #666666;
 }
 
-/* line 102, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 h1 {
   font: bold 2em sans-serif;
   margin-bottom: .3em;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 article,
 ul,
 div {

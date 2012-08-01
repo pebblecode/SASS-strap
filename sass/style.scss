@@ -1,91 +1,13 @@
 @import "compass/css3";
 @import "compass/reset";
 
+
+
 // ======================================================================================================
-// $grid mixins (form twitter bootstrap responsive)
+// $bootstrap imports
 // ======================================================================================================
 
-.row-fluid {
-  width: 100%;
-  *zoom: 1;
-
-  &:before,
-  &:after {
-    display: table;
-    content: "";
-  }
-
-  &:after {
-    clear: both;
-  }
-} 
-
-.span{
-  display: block;
-  width: 100%;
-  min-height: 28px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
-  margin-left: 2.127659574%;
-  *margin-left: 2.0744680846382977%;
-
-  &:first-child{
-    margin-left: 0;
-  } 
-}
-
-.span12 {
-  width: 99.99999998999999%;
-  *width: 99.94680850063828%;
-}
-.span11 {
-  width: 91.489361693%;
-  *width: 91.4361702036383%;
-}
-.span10 {
-  width: 82.97872339599999%;
-  *width: 82.92553190663828%;
-}
-.span9 {
-  width: 74.468085099%;
-  *width: 74.4148936096383%;
-}
-.span8 {
-  width: 65.95744680199999%;
-  *width: 65.90425531263828%;
-}
-.span7 {
-  width: 57.446808505%;
-  *width: 57.3936170156383%;
-}
-.span6 {
-  width: 48.93617020799999%;
-  *width: 48.88297871863829%;
-}
-.span5 {
-  width: 40.425531911%;
-  *width: 40.3723404216383%;
-}
-.span4 {
-  width: 31.914893614%;
-  *width: 31.8617021246383%;
-}
-.span3 {
-  width: 23.404255317%;
-  *width: 23.3510638276383%;
-}
-.span2 {
-  width: 14.89361702%;
-  *width: 14.8404255306383%;
-}
-.span1 {
-  width: 6.382978723%;
-  *width: 6.329787233638298%;
-}
-
+@import "fluid-grid";
 
 
 
@@ -120,7 +42,6 @@ div{
   @extend .row-fluid;
 
   p{
-    @extend .span;
     @extend .span4;
   }
 }
@@ -129,7 +50,6 @@ div{
   @extend .row-fluid;
 
   img{
-    @extend .span;
     @extend .span2;
   }
 }
@@ -138,7 +58,6 @@ div{
   @extend .row-fluid;
 
   li{
-    @extend .span;
     @extend .span3;
   }
 }
@@ -147,7 +66,6 @@ div{
   @extend .row-fluid;
 
   p{
-    @extend .span;
     @extend .span6;
   }
 }
