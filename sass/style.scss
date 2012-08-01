@@ -6,51 +6,30 @@
 @import "compass/css3";
 
 // Twitter bootstrap inmports
-@import "normalize";
-@import "fluid-grid";
-//@import "buttons";
+@import "bootstrap-normalize";
+@import "bootstrap-fluid-grid";
+@import "bootstrap-buttons";
+@import "bootstrap-typography";
+@import "bootstrap-tables";
 
 
 
 // ======================================================================================================
-// $visablity / vanity styling
+// $sanity / vanity styling
 // ======================================================================================================
 
 body{
-  font: 1em/1.4 sans-serif;
-  margin: 3em;
-  color: hsl(0,0,40);
+  padding: 30px
 }
 
-h1{
-  font: bold 3em sans-serif;
-  margin-bottom: .1em;
-  color: hsl(320,100,50);
-}
-
-article,
-ul,
-div{
-  padding: .5em 0;
+article, div{
+  margin-bottom: 18px;
 }
 
 // ======================================================================================================
-// $include grid
+// $bootstraperize
 // ======================================================================================================
 
-@mixin btn($color){
-  padding: .3em 1em;
-  margin: 0 .2em;
-  
-  color: hsla(0,0,0,.8);
-  background-color: $color;
-  @include background-image(linear-gradient(lighten($color, 10), darken($color, 10)));
-  border: 1px solid darken($color, 20);
-
-  @include text-shadow(hsla(0,0,100,.5) 1px 1px);
-  @include border-radius(.3em);
-  @include box-shadow(hsla(0,0,0,.3) 0 1px 4px)
-}
 
 
 .introduction{
@@ -72,41 +51,19 @@ div{
 .selling-points{
   @extend .row-fluid;
 
-  li{
+  p{
     @extend .span3;
   }
 }
 
-.about{
-  @extend .row-fluid;
-
-  p{
-    @extend .span6;
-  }
-}
-
-.help-button, .danger-button, .buy-button{
-  text-decoration: none; 
-}
-
 .help-button{
-  //background-color: hsl(100,80,45);
-
-  @include btn(hsl(100,80,50));
+  @extend .btn;
 }
 
 .danger-button{
-  //background-color: hsl(0,80,55);
-
-  @include btn(hsl(320,100,40));
+  @extend .btn, .btn-danger;
 }
 
 .buy-button{
-  //background-color: hsl(200,80,55);
-
-  @include btn(hsl(200,100,50));
+  @extend .btn, .btn-primary;
 }
-
-
-
-
