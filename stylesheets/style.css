@@ -184,7 +184,7 @@ textarea {
 }
 
 /* line 20, ../sass/_fluid-grid.scss */
-.span1, .span2, .photos img, .span3, .selling-points li, .span4, .introduction p, .span5, .span5, .span6, .about p, .span7, .span8, .span9, .span10, .span11, .span12 {
+.span1, .photos img, .span2, .span3, .selling-points li, .span4, .introduction p, .span5, .span5, .span6, .about p, .span7, .span8, .span9, .span10, .span11, .span12 {
   display: block;
   width: 100%;
   min-height: 28px;
@@ -197,7 +197,7 @@ textarea {
   *margin-left: 2.0744680846382977%;
 }
 /* line 32, ../sass/_fluid-grid.scss */
-.span1:first-child, .span2:first-child, .photos img:first-child, .span3:first-child, .selling-points li:first-child, .span4:first-child, .introduction p:first-child, .span5:first-child, .span5:first-child, .span6:first-child, .about p:first-child, .span7:first-child, .span8:first-child, .span9:first-child, .span10:first-child, .span11:first-child, .span12:first-child {
+.span1:first-child, .photos img:first-child, .span2:first-child, .span3:first-child, .selling-points li:first-child, .span4:first-child, .introduction p:first-child, .span5:first-child, .span5:first-child, .span6:first-child, .about p:first-child, .span7:first-child, .span8:first-child, .span9:first-child, .span10:first-child, .span11:first-child, .span12:first-child {
   margin-left: 0;
 }
 
@@ -262,33 +262,254 @@ textarea {
 }
 
 /* line 77, ../sass/_fluid-grid.scss */
-.span2, .photos img {
+.span2 {
   width: 14.89361702%;
   *width: 14.8404255306383%;
 }
 
 /* line 81, ../sass/_fluid-grid.scss */
-.span1 {
+.span1, .photos img {
   width: 6.382978723%;
   *width: 6.329787233638298%;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 5, ../sass/_buttons.scss */
+.btn, .help-button, .danger-button, .buy-button {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -ms-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 51, ../sass/_buttons.scss */
+.btn:hover, .help-button:hover, .danger-button:hover, .buy-button:hover,
+.btn:active,
+.help-button:active,
+.danger-button:active,
+.buy-button:active,
+.btn.active,
+.active.help-button,
+.active.danger-button,
+.active.buy-button,
+.btn.disabled,
+.disabled.help-button,
+.disabled.danger-button,
+.disabled.buy-button,
+.btn[disabled],
+[disabled].help-button,
+[disabled].danger-button,
+[disabled].buy-button {
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+/* line 56, ../sass/_buttons.scss */
+.btn:active, .help-button:active, .danger-button:active, .buy-button:active,
+.btn.active,
+.active.help-button,
+.active.danger-button,
+.active.buy-button {
+  background-color: #cccccc \9;
+}
+
+/* line 59, ../sass/_buttons.scss */
+.btn:first-child, .help-button:first-child, .danger-button:first-child, .buy-button:first-child {
+  *margin-left: 0;
+}
+
+/* line 62, ../sass/_buttons.scss */
+.btn:hover, .help-button:hover, .danger-button:hover, .buy-button:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 76, ../sass/_buttons.scss */
+.btn:focus, .help-button:focus, .danger-button:focus, .buy-button:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 82, ../sass/_buttons.scss */
+.btn.active, .active.help-button, .active.danger-button, .active.buy-button,
+.btn:active,
+.help-button:active,
+.danger-button:active,
+.buy-button:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 92, ../sass/_buttons.scss */
+.btn.disabled, .disabled.help-button, .disabled.danger-button, .disabled.buy-button,
+.btn[disabled],
+[disabled].help-button,
+[disabled].danger-button,
+[disabled].buy-button {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 102, ../sass/_buttons.scss */
+.btn-large {
+  padding: 9px 14px;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 110, ../sass/_buttons.scss */
+.btn-large [class^="icon-"] {
+  margin-top: 1px;
+}
+
+/* line 113, ../sass/_buttons.scss */
+.btn-small {
+  padding: 5px 9px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 118, ../sass/_buttons.scss */
+.btn-small [class^="icon-"] {
+  margin-top: -1px;
+}
+
+/* line 121, ../sass/_buttons.scss */
+.btn-mini {
+  padding: 2px 6px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/* line 128, ../sass/_buttons.scss */
+button.btn, button.help-button, button.danger-button, button.buy-button,
+input[type="submit"].btn,
+input[type="submit"].help-button,
+input[type="submit"].danger-button,
+input[type="submit"].buy-button {
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+}
+
+/* line 133, ../sass/_buttons.scss */
+button.btn::-moz-focus-inner, button.help-button::-moz-focus-inner, button.danger-button::-moz-focus-inner, button.buy-button::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner,
+input[type="submit"].help-button::-moz-focus-inner,
+input[type="submit"].danger-button::-moz-focus-inner,
+input[type="submit"].buy-button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 138, ../sass/_buttons.scss */
+button.btn.btn-large, button.btn-large.help-button, button.btn-large.danger-button, button.btn-large.buy-button,
+input[type="submit"].btn.btn-large,
+input[type="submit"].btn-large.help-button,
+input[type="submit"].btn-large.danger-button,
+input[type="submit"].btn-large.buy-button {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+
+/* line 143, ../sass/_buttons.scss */
+button.btn.btn-small, button.btn-small.help-button, button.btn-small.danger-button, button.btn-small.buy-button,
+input[type="submit"].btn.btn-small,
+input[type="submit"].btn-small.help-button,
+input[type="submit"].btn-small.danger-button,
+input[type="submit"].btn-small.buy-button {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+/* line 148, ../sass/_buttons.scss */
+button.btn.btn-mini, button.btn-mini.help-button, button.btn-mini.danger-button, button.btn-mini.buy-button,
+input[type="submit"].btn.btn-mini,
+input[type="submit"].btn-mini.help-button,
+input[type="submit"].btn-mini.danger-button,
+input[type="submit"].btn-mini.buy-button {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+/* line 19, ../sass/style.scss */
 body {
-  font: 1.2em/1.4 sans-serif;
+  font: 1em/1.4 sans-serif;
   margin: 3em;
   color: #666666;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 h1 {
-  font: bold 2em sans-serif;
-  margin-bottom: .3em;
+  font: bold 3em sans-serif;
+  margin-bottom: .1em;
+  color: #ff00aa;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 article,
 ul,
 div {
   padding: .5em 0;
+}
+
+/* line 73, ../sass/style.scss */
+.help-button, .danger-button, .buy-button {
+  text-decoration: none;
 }

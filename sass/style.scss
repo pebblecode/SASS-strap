@@ -8,6 +8,7 @@
 // Twitter bootstrap inmports
 @import "normalize";
 @import "fluid-grid";
+@import "buttons";
 
 
 
@@ -16,14 +17,15 @@
 // ======================================================================================================
 
 body{
-  font: 1.2em/1.4 sans-serif;
+  font: 1em/1.4 sans-serif;
   margin: 3em;
   color: hsl(0,0,40);
 }
 
 h1{
-  font: bold 2em sans-serif;
-  margin-bottom: .3em;
+  font: bold 3em sans-serif;
+  margin-bottom: .1em;
+  color: hsl(320,100,50);
 }
 
 article,
@@ -31,8 +33,6 @@ ul,
 div{
   padding: .5em 0;
 }
-
-
 
 // ======================================================================================================
 // $include grid
@@ -50,7 +50,7 @@ div{
   @extend .row-fluid;
 
   img{
-    @extend .span2;
+    @extend .span1;
   }
 }
 
@@ -68,6 +68,12 @@ div{
   p{
     @extend .span6;
   }
+}
+
+.help-button, .danger-button, .buy-button{
+  @extend .btn;
+
+  text-decoration: none; 
 }
 
 
