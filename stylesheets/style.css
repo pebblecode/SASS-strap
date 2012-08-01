@@ -63,26 +63,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 body {
   font: 1.2em/1.4 sans-serif;
   margin: 3em;
   color: #4d4d4d;
 }
 
-/* line 99, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 h1 {
   font: bold 2em sans-serif;
   margin-bottom: .3em;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 article {
-  width: 100%;
-  *zoom: 1;
   padding: 1em 0;
   background-color: rgba(255, 0, 0, 0.2);
   margin-bottom: 1em;
+}
+
+/* line 113, ../sass/style.scss */
+p {
+  background-color: rgba(0, 170, 255, 0.2);
+}
+
+/* line 123, ../sass/style.scss */
+article {
+  width: 100%;
+  *zoom: 1;
 }
 /* line 13, ../sass/style.scss */
 article:before, article:after {
@@ -94,7 +103,7 @@ article:after {
   clear: both;
 }
 
-/* line 112, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 p {
   display: block;
   width: 100%;
@@ -106,26 +115,25 @@ p {
   float: left;
   margin-left: 2.127659574%;
   *margin-left: 2.0744680846382977%;
-  background-color: rgba(0, 170, 255, 0.2);
 }
 /* line 35, ../sass/style.scss */
 p:first-child {
   margin-left: 0;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .three p {
   width: 31.914893614%;
   *width: 31.8617021246383%;
 }
 
-/* line 122, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .two p {
   width: 48.93617020799999%;
   *width: 48.88297871863829%;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .four p {
   width: 23.404255317%;
   *width: 23.3510638276383%;
