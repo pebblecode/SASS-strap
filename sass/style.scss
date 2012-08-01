@@ -8,7 +8,7 @@
 // Twitter bootstrap inmports
 @import "normalize";
 @import "fluid-grid";
-@import "buttons";
+//@import "buttons";
 
 
 
@@ -37,6 +37,21 @@ div{
 // ======================================================================================================
 // $include grid
 // ======================================================================================================
+
+@mixin btn($color){
+  padding: .3em 1em;
+  margin: 0 .2em;
+  
+  color: hsla(0,0,0,.8);
+  background-color: $color;
+  @include background-image(linear-gradient(lighten($color, 10), darken($color, 10)));
+  border: 1px solid darken($color, 20);
+
+  @include text-shadow(hsla(0,0,100,.5) 1px 1px);
+  @include border-radius(.3em);
+  @include box-shadow(hsla(0,0,0,.3) 0 1px 4px)
+}
+
 
 .introduction{
   @extend .row-fluid;
@@ -71,12 +86,26 @@ div{
 }
 
 .help-button, .danger-button, .buy-button{
-  @extend .btn;
-
   text-decoration: none; 
 }
 
+.help-button{
+  //background-color: hsl(100,80,45);
 
+  @include btn(hsl(100,80,50));
+}
+
+.danger-button{
+  //background-color: hsl(0,80,55);
+
+  @include btn(hsl(320,100,40));
+}
+
+.buy-button{
+  //background-color: hsl(200,80,55);
+
+  @include btn(hsl(200,100,50));
+}
 
 
 
