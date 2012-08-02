@@ -1,21 +1,21 @@
-/* line 5, ../sass/_bootstrap-normalize.scss */
+/* line 5, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 .clearfix {
   *zoom: 1;
 }
 
-/* line 9, ../sass/_bootstrap-normalize.scss */
+/* line 9, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 .clearfix:before,
 .clearfix:after {
   display: table;
   content: "";
 }
 
-/* line 13, ../sass/_bootstrap-normalize.scss */
+/* line 13, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 16, ../sass/_bootstrap-normalize.scss */
+/* line 16, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -24,7 +24,7 @@
   border: 0;
 }
 
-/* line 23, ../sass/_bootstrap-normalize.scss */
+/* line 23, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 .input-block-level {
   display: block;
   width: 100%;
@@ -35,7 +35,7 @@
   box-sizing: border-box;
 }
 
-/* line 41, ../sass/_bootstrap-normalize.scss */
+/* line 41, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 article,
 aside,
 details,
@@ -49,7 +49,7 @@ section {
   display: block;
 }
 
-/* line 46, ../sass/_bootstrap-normalize.scss */
+/* line 46, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 audio,
 canvas,
 video {
@@ -58,32 +58,32 @@ video {
   *zoom: 1;
 }
 
-/* line 51, ../sass/_bootstrap-normalize.scss */
+/* line 51, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 audio:not([controls]) {
   display: none;
 }
 
-/* line 54, ../sass/_bootstrap-normalize.scss */
+/* line 54, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 59, ../sass/_bootstrap-normalize.scss */
+/* line 59, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-/* line 65, ../sass/_bootstrap-normalize.scss */
+/* line 65, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
-/* line 69, ../sass/_bootstrap-normalize.scss */
+/* line 69, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 sub,
 sup {
   position: relative;
@@ -92,17 +92,17 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 75, ../sass/_bootstrap-normalize.scss */
+/* line 75, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 78, ../sass/_bootstrap-normalize.scss */
+/* line 78, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 81, ../sass/_bootstrap-normalize.scss */
+/* line 81, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -110,12 +110,12 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 87, ../sass/_bootstrap-normalize.scss */
+/* line 87, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 #map_canvas img {
   max-width: none;
 }
 
-/* line 93, ../sass/_bootstrap-normalize.scss */
+/* line 93, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 button,
 input,
 select,
@@ -125,21 +125,21 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 99, ../sass/_bootstrap-normalize.scss */
+/* line 99, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 button,
 input {
   *overflow: visible;
   line-height: normal;
 }
 
-/* line 104, ../sass/_bootstrap-normalize.scss */
+/* line 104, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 111, ../sass/_bootstrap-normalize.scss */
+/* line 111, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -148,7 +148,7 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
-/* line 115, ../sass/_bootstrap-normalize.scss */
+/* line 115, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 input[type="search"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -156,34 +156,34 @@ input[type="search"] {
   -webkit-appearance: textfield;
 }
 
-/* line 122, ../sass/_bootstrap-normalize.scss */
+/* line 122, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-/* line 125, ../sass/_bootstrap-normalize.scss */
+/* line 125, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 5, ../sass/_bootstrap-fluid-grid.scss */
+/* line 5, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .row-fluid, .introduction, .photos, .selling-points {
   width: 100%;
   *zoom: 1;
 }
-/* line 10, ../sass/_bootstrap-fluid-grid.scss */
+/* line 10, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .row-fluid:before, .introduction:before, .photos:before, .selling-points:before, .row-fluid:after, .introduction:after, .photos:after, .selling-points:after {
   display: table;
   content: "";
 }
-/* line 15, ../sass/_bootstrap-fluid-grid.scss */
+/* line 15, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .row-fluid:after, .introduction:after, .photos:after, .selling-points:after {
   clear: both;
 }
 
-/* line 20, ../sass/_bootstrap-fluid-grid.scss */
+/* line 20, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span1, .photos img, .span2, .span3, .selling-points p, .span4, .introduction p, .span5, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
   display: block;
   width: 100%;
@@ -196,84 +196,84 @@ textarea {
   margin-left: 2.127659574%;
   *margin-left: 2.0744680846382977%;
 }
-/* line 32, ../sass/_bootstrap-fluid-grid.scss */
+/* line 32, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span1:first-child, .photos img:first-child, .span2:first-child, .span3:first-child, .selling-points p:first-child, .span4:first-child, .introduction p:first-child, .span5:first-child, .span5:first-child, .span6:first-child, .span7:first-child, .span8:first-child, .span9:first-child, .span10:first-child, .span11:first-child, .span12:first-child {
   margin-left: 0;
 }
 
-/* line 37, ../sass/_bootstrap-fluid-grid.scss */
+/* line 37, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span12 {
   width: 99.99999998999999%;
   *width: 99.94680850063828%;
 }
 
-/* line 41, ../sass/_bootstrap-fluid-grid.scss */
+/* line 41, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span11 {
   width: 91.489361693%;
   *width: 91.4361702036383%;
 }
 
-/* line 45, ../sass/_bootstrap-fluid-grid.scss */
+/* line 45, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span10 {
   width: 82.97872339599999%;
   *width: 82.92553190663828%;
 }
 
-/* line 49, ../sass/_bootstrap-fluid-grid.scss */
+/* line 49, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span9 {
   width: 74.468085099%;
   *width: 74.4148936096383%;
 }
 
-/* line 53, ../sass/_bootstrap-fluid-grid.scss */
+/* line 53, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span8 {
   width: 65.95744680199999%;
   *width: 65.90425531263828%;
 }
 
-/* line 57, ../sass/_bootstrap-fluid-grid.scss */
+/* line 57, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span7 {
   width: 57.446808505%;
   *width: 57.3936170156383%;
 }
 
-/* line 61, ../sass/_bootstrap-fluid-grid.scss */
+/* line 61, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span6 {
   width: 48.93617020799999%;
   *width: 48.88297871863829%;
 }
 
-/* line 65, ../sass/_bootstrap-fluid-grid.scss */
+/* line 65, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span5 {
   width: 40.425531911%;
   *width: 40.3723404216383%;
 }
 
-/* line 69, ../sass/_bootstrap-fluid-grid.scss */
+/* line 69, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span4, .introduction p {
   width: 31.914893614%;
   *width: 31.8617021246383%;
 }
 
-/* line 73, ../sass/_bootstrap-fluid-grid.scss */
+/* line 73, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span3, .selling-points p {
   width: 23.404255317%;
   *width: 23.3510638276383%;
 }
 
-/* line 77, ../sass/_bootstrap-fluid-grid.scss */
+/* line 77, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span2 {
   width: 14.89361702%;
   *width: 14.8404255306383%;
 }
 
-/* line 81, ../sass/_bootstrap-fluid-grid.scss */
+/* line 81, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-fluid-grid.scss */
 .span1, .photos img {
   width: 6.382978723%;
   *width: 6.329787233638298%;
 }
 
-/* line 5, ../sass/_bootstrap-buttons.scss */
+/* line 5, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn {
   display: inline-block;
   *display: inline;
@@ -315,7 +315,7 @@ textarea {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 51, ../sass/_bootstrap-buttons.scss */
+/* line 51, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn:hover,
 .btn:active,
 .btn.active,
@@ -325,18 +325,18 @@ textarea {
   *background-color: #d9d9d9;
 }
 
-/* line 56, ../sass/_bootstrap-buttons.scss */
+/* line 56, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn:active,
 .btn.active {
   background-color: #cccccc \9;
 }
 
-/* line 59, ../sass/_bootstrap-buttons.scss */
+/* line 59, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn:first-child {
   *margin-left: 0;
 }
 
-/* line 62, ../sass/_bootstrap-buttons.scss */
+/* line 62, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn:hover {
   color: #333333;
   text-decoration: none;
@@ -351,14 +351,14 @@ textarea {
   transition: background-position 0.1s linear;
 }
 
-/* line 76, ../sass/_bootstrap-buttons.scss */
+/* line 76, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-/* line 82, ../sass/_bootstrap-buttons.scss */
+/* line 82, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn.active,
 .btn:active {
   background-color: #e6e6e6;
@@ -370,7 +370,7 @@ textarea {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 92, ../sass/_bootstrap-buttons.scss */
+/* line 92, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn.disabled,
 .btn[disabled] {
   cursor: default;
@@ -383,7 +383,7 @@ textarea {
   box-shadow: none;
 }
 
-/* line 102, ../sass/_bootstrap-buttons.scss */
+/* line 102, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-large {
   padding: 9px 14px;
   font-size: 15px;
@@ -393,31 +393,31 @@ textarea {
   border-radius: 5px;
 }
 
-/* line 110, ../sass/_bootstrap-buttons.scss */
+/* line 110, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-large [class^="icon-"] {
   margin-top: 1px;
 }
 
-/* line 113, ../sass/_bootstrap-buttons.scss */
+/* line 113, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-small {
   padding: 5px 9px;
   font-size: 11px;
   line-height: 16px;
 }
 
-/* line 118, ../sass/_bootstrap-buttons.scss */
+/* line 118, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-small [class^="icon-"] {
   margin-top: -1px;
 }
 
-/* line 121, ../sass/_bootstrap-buttons.scss */
+/* line 121, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-mini {
   padding: 2px 6px;
   font-size: 11px;
   line-height: 14px;
 }
 
-/* line 137, ../sass/_bootstrap-buttons.scss */
+/* line 137, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-primary,
 .btn-primary:hover,
 .btn-warning,
@@ -434,7 +434,7 @@ textarea {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
-/* line 146, ../sass/_bootstrap-buttons.scss */
+/* line 146, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
@@ -444,13 +444,13 @@ textarea {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 149, ../sass/_bootstrap-buttons.scss */
+/* line 149, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn {
   border-color: #ccc;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
-/* line 153, ../sass/_bootstrap-buttons.scss */
+/* line 153, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-primary {
   background-color: #0074cc;
   background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
@@ -468,7 +468,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 174, ../sass/_bootstrap-buttons.scss */
+/* line 174, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.active,
@@ -478,13 +478,13 @@ textarea {
   *background-color: #004ab3;
 }
 
-/* line 179, ../sass/_bootstrap-buttons.scss */
+/* line 179, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-primary:active,
 .btn-primary.active {
   background-color: #004099 \9;
 }
 
-/* line 182, ../sass/_bootstrap-buttons.scss */
+/* line 182, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-warning {
   background-color: #faa732;
   background-image: -moz-linear-gradient(top, #fbb450, #f89406);
@@ -502,7 +502,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 203, ../sass/_bootstrap-buttons.scss */
+/* line 203, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-warning:hover,
 .btn-warning:active,
 .btn-warning.active,
@@ -512,13 +512,13 @@ textarea {
   *background-color: #df8505;
 }
 
-/* line 208, ../sass/_bootstrap-buttons.scss */
+/* line 208, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-warning:active,
 .btn-warning.active {
   background-color: #c67605 \9;
 }
 
-/* line 211, ../sass/_bootstrap-buttons.scss */
+/* line 211, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-danger {
   background-color: #da4f49;
   background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
@@ -536,7 +536,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 232, ../sass/_bootstrap-buttons.scss */
+/* line 232, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-danger:hover,
 .btn-danger:active,
 .btn-danger.active,
@@ -546,13 +546,13 @@ textarea {
   *background-color: #a9302a;
 }
 
-/* line 237, ../sass/_bootstrap-buttons.scss */
+/* line 237, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-danger:active,
 .btn-danger.active {
   background-color: #942a25 \9;
 }
 
-/* line 240, ../sass/_bootstrap-buttons.scss */
+/* line 240, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-success {
   background-color: #5bb75b;
   background-image: -moz-linear-gradient(top, #62c462, #51a351);
@@ -570,7 +570,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 261, ../sass/_bootstrap-buttons.scss */
+/* line 261, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-success:hover,
 .btn-success:active,
 .btn-success.active,
@@ -580,13 +580,13 @@ textarea {
   *background-color: #499249;
 }
 
-/* line 266, ../sass/_bootstrap-buttons.scss */
+/* line 266, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-success:active,
 .btn-success.active {
   background-color: #408140 \9;
 }
 
-/* line 269, ../sass/_bootstrap-buttons.scss */
+/* line 269, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-info {
   background-color: #49afcd;
   background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
@@ -604,7 +604,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 290, ../sass/_bootstrap-buttons.scss */
+/* line 290, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-info:hover,
 .btn-info:active,
 .btn-info.active,
@@ -614,13 +614,13 @@ textarea {
   *background-color: #2a85a0;
 }
 
-/* line 295, ../sass/_bootstrap-buttons.scss */
+/* line 295, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-info:active,
 .btn-info.active {
   background-color: #24748c \9;
 }
 
-/* line 298, ../sass/_bootstrap-buttons.scss */
+/* line 298, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-inverse {
   background-color: #414141;
   background-image: -moz-linear-gradient(top, #555555, #222222);
@@ -638,7 +638,7 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
-/* line 319, ../sass/_bootstrap-buttons.scss */
+/* line 319, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-inverse:hover,
 .btn-inverse:active,
 .btn-inverse.active,
@@ -648,48 +648,48 @@ textarea {
   *background-color: #151515;
 }
 
-/* line 324, ../sass/_bootstrap-buttons.scss */
+/* line 324, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 .btn-inverse:active,
 .btn-inverse.active {
   background-color: #080808 \9;
 }
 
-/* line 328, ../sass/_bootstrap-buttons.scss */
+/* line 328, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 button.btn,
 input[type="submit"].btn {
   *padding-top: 2px;
   *padding-bottom: 2px;
 }
 
-/* line 333, ../sass/_bootstrap-buttons.scss */
+/* line 333, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 button.btn::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 338, ../sass/_bootstrap-buttons.scss */
+/* line 338, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 button.btn.btn-large,
 input[type="submit"].btn.btn-large {
   *padding-top: 7px;
   *padding-bottom: 7px;
 }
 
-/* line 343, ../sass/_bootstrap-buttons.scss */
+/* line 343, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 button.btn.btn-small,
 input[type="submit"].btn.btn-small {
   *padding-top: 3px;
   *padding-bottom: 3px;
 }
 
-/* line 348, ../sass/_bootstrap-buttons.scss */
+/* line 348, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-buttons.scss */
 button.btn.btn-mini,
 input[type="submit"].btn.btn-mini {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
 
-/* line 5, ../sass/_bootstrap-typography.scss */
+/* line 5, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -699,30 +699,30 @@ body {
   background-color: #ffffff;
 }
 
-/* line 13, ../sass/_bootstrap-typography.scss */
+/* line 13, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 a {
   color: #0088cc;
   text-decoration: none;
 }
 
-/* line 17, ../sass/_bootstrap-typography.scss */
+/* line 17, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 a:hover {
   color: #005580;
   text-decoration: underline;
 }
 
-/* line 21, ../sass/_bootstrap-typography.scss */
+/* line 21, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 p {
   margin: 0 0 9px;
 }
 
-/* line 24, ../sass/_bootstrap-typography.scss */
+/* line 24, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 p small {
   font-size: 11px;
   color: #999999;
 }
 
-/* line 28, ../sass/_bootstrap-typography.scss */
+/* line 28, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .lead {
   margin-bottom: 18px;
   font-size: 20px;
@@ -730,7 +730,7 @@ p small {
   line-height: 27px;
 }
 
-/* line 39, ../sass/_bootstrap-typography.scss */
+/* line 39, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h1,
 h2,
 h3,
@@ -744,7 +744,7 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 51, ../sass/_bootstrap-typography.scss */
+/* line 51, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h1 small,
 h2 small,
 h3 small,
@@ -755,88 +755,88 @@ h6 small {
   color: #999999;
 }
 
-/* line 55, ../sass/_bootstrap-typography.scss */
+/* line 55, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h1 {
   font-size: 30px;
   line-height: 36px;
 }
 
-/* line 59, ../sass/_bootstrap-typography.scss */
+/* line 59, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h1 small {
   font-size: 18px;
 }
 
-/* line 62, ../sass/_bootstrap-typography.scss */
+/* line 62, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h2 {
   font-size: 24px;
   line-height: 36px;
 }
 
-/* line 66, ../sass/_bootstrap-typography.scss */
+/* line 66, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h2 small {
   font-size: 18px;
 }
 
-/* line 69, ../sass/_bootstrap-typography.scss */
+/* line 69, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h3 {
   font-size: 18px;
   line-height: 27px;
 }
 
-/* line 73, ../sass/_bootstrap-typography.scss */
+/* line 73, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h3 small {
   font-size: 14px;
 }
 
-/* line 78, ../sass/_bootstrap-typography.scss */
+/* line 78, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h4,
 h5,
 h6 {
   line-height: 18px;
 }
 
-/* line 81, ../sass/_bootstrap-typography.scss */
+/* line 81, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h4 {
   font-size: 14px;
 }
 
-/* line 84, ../sass/_bootstrap-typography.scss */
+/* line 84, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h4 small {
   font-size: 12px;
 }
 
-/* line 87, ../sass/_bootstrap-typography.scss */
+/* line 87, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h5 {
   font-size: 12px;
 }
 
-/* line 90, ../sass/_bootstrap-typography.scss */
+/* line 90, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 h6 {
   font-size: 11px;
   color: #999999;
   text-transform: uppercase;
 }
 
-/* line 95, ../sass/_bootstrap-typography.scss */
+/* line 95, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .page-header {
   padding-bottom: 17px;
   margin: 18px 0;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 100, ../sass/_bootstrap-typography.scss */
+/* line 100, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .page-header h1 {
   line-height: 1;
 }
 
-/* line 104, ../sass/_bootstrap-typography.scss */
+/* line 104, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 ul,
 ol {
   padding: 0;
   margin: 0 0 9px 25px;
 }
 
-/* line 111, ../sass/_bootstrap-typography.scss */
+/* line 111, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 ul ul,
 ul ol,
 ol ol,
@@ -844,51 +844,51 @@ ol ul {
   margin-bottom: 0;
 }
 
-/* line 114, ../sass/_bootstrap-typography.scss */
+/* line 114, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 ul {
   list-style: disc;
 }
 
-/* line 117, ../sass/_bootstrap-typography.scss */
+/* line 117, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 120, ../sass/_bootstrap-typography.scss */
+/* line 120, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 li {
   line-height: 18px;
 }
 
-/* line 124, ../sass/_bootstrap-typography.scss */
+/* line 124, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
   list-style: none;
 }
 
-/* line 128, ../sass/_bootstrap-typography.scss */
+/* line 128, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 dl {
   margin-bottom: 18px;
 }
 
-/* line 132, ../sass/_bootstrap-typography.scss */
+/* line 132, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 dt,
 dd {
   line-height: 18px;
 }
 
-/* line 135, ../sass/_bootstrap-typography.scss */
+/* line 135, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 dt {
   font-weight: bold;
   line-height: 17px;
 }
 
-/* line 139, ../sass/_bootstrap-typography.scss */
+/* line 139, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 dd {
   margin-left: 9px;
 }
 
-/* line 142, ../sass/_bootstrap-typography.scss */
+/* line 142, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .dl-horizontal dt {
   float: left;
   width: 120px;
@@ -899,12 +899,12 @@ dd {
   white-space: nowrap;
 }
 
-/* line 151, ../sass/_bootstrap-typography.scss */
+/* line 151, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .dl-horizontal dd {
   margin-left: 130px;
 }
 
-/* line 154, ../sass/_bootstrap-typography.scss */
+/* line 154, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 hr {
   margin: 18px 0;
   border: 0;
@@ -912,41 +912,41 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
-/* line 160, ../sass/_bootstrap-typography.scss */
+/* line 160, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 163, ../sass/_bootstrap-typography.scss */
+/* line 163, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 em {
   font-style: italic;
 }
 
-/* line 166, ../sass/_bootstrap-typography.scss */
+/* line 166, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 .muted {
   color: #999999;
 }
 
-/* line 169, ../sass/_bootstrap-typography.scss */
+/* line 169, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #999999;
 }
 
-/* line 173, ../sass/_bootstrap-typography.scss */
+/* line 173, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 abbr.initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
 
-/* line 177, ../sass/_bootstrap-typography.scss */
+/* line 177, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 18px;
   border-left: 5px solid #eeeeee;
 }
 
-/* line 182, ../sass/_bootstrap-typography.scss */
+/* line 182, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote p {
   margin-bottom: 0;
   font-size: 16px;
@@ -954,19 +954,19 @@ blockquote p {
   line-height: 22.5px;
 }
 
-/* line 188, ../sass/_bootstrap-typography.scss */
+/* line 188, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote small {
   display: block;
   line-height: 18px;
   color: #999999;
 }
 
-/* line 193, ../sass/_bootstrap-typography.scss */
+/* line 193, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote small:before {
   content: '\2014 \00A0';
 }
 
-/* line 196, ../sass/_bootstrap-typography.scss */
+/* line 196, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote.pull-right {
   float: right;
   padding-right: 15px;
@@ -975,13 +975,13 @@ blockquote.pull-right {
   border-left: 0;
 }
 
-/* line 204, ../sass/_bootstrap-typography.scss */
+/* line 204, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 blockquote.pull-right p,
 blockquote.pull-right small {
   text-align: right;
 }
 
-/* line 210, ../sass/_bootstrap-typography.scss */
+/* line 210, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 q:before,
 q:after,
 blockquote:before,
@@ -989,7 +989,7 @@ blockquote:after {
   content: "";
 }
 
-/* line 213, ../sass/_bootstrap-typography.scss */
+/* line 213, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 address {
   display: block;
   margin-bottom: 18px;
@@ -997,17 +997,17 @@ address {
   line-height: 18px;
 }
 
-/* line 219, ../sass/_bootstrap-typography.scss */
+/* line 219, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 small {
   font-size: 100%;
 }
 
-/* line 222, ../sass/_bootstrap-typography.scss */
+/* line 222, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 5, ../sass/_bootstrap-tables.scss */
+/* line 5, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 table {
   max-width: 100%;
   background-color: transparent;
@@ -1015,13 +1015,13 @@ table {
   border-spacing: 0;
 }
 
-/* line 11, ../sass/_bootstrap-tables.scss */
+/* line 11, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table, .table-container table {
   width: 100%;
   margin-bottom: 18px;
 }
 
-/* line 16, ../sass/_bootstrap-tables.scss */
+/* line 16, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table th, .table-container table th,
 .table td,
 .table-container table td {
@@ -1032,17 +1032,17 @@ table {
   border-top: 1px solid #dddddd;
 }
 
-/* line 23, ../sass/_bootstrap-tables.scss */
+/* line 23, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table th, .table-container table th {
   font-weight: bold;
 }
 
-/* line 26, ../sass/_bootstrap-tables.scss */
+/* line 26, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table thead th, .table-container table thead th {
   vertical-align: bottom;
 }
 
-/* line 34, ../sass/_bootstrap-tables.scss */
+/* line 34, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table caption + thead tr:first-child th, .table-container table caption + thead tr:first-child th,
 .table caption + thead tr:first-child td,
 .table-container table caption + thead tr:first-child td,
@@ -1057,18 +1057,18 @@ table {
   border-top: 0;
 }
 
-/* line 37, ../sass/_bootstrap-tables.scss */
+/* line 37, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table tbody + tbody, .table-container table tbody + tbody {
   border-top: 2px solid #dddddd;
 }
 
-/* line 41, ../sass/_bootstrap-tables.scss */
+/* line 41, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px;
 }
 
-/* line 44, ../sass/_bootstrap-tables.scss */
+/* line 44, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered, .table-container table {
   border: 1px solid #dddddd;
   border-collapse: separate;
@@ -1079,14 +1079,14 @@ table {
   border-radius: 4px;
 }
 
-/* line 54, ../sass/_bootstrap-tables.scss */
+/* line 54, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered th, .table-container table th,
 .table-bordered td,
 .table-container table td {
   border-left: 1px solid #dddddd;
 }
 
-/* line 65, ../sass/_bootstrap-tables.scss */
+/* line 65, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered caption + thead tr:first-child th, .table-container table caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,
 .table-container table caption + tbody tr:first-child th,
@@ -1107,7 +1107,7 @@ table {
   border-top: 0;
 }
 
-/* line 69, ../sass/_bootstrap-tables.scss */
+/* line 69, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered thead:first-child tr:first-child th:first-child, .table-container table thead:first-child tr:first-child th:first-child,
 .table-bordered tbody:first-child tr:first-child td:first-child,
 .table-container table tbody:first-child tr:first-child td:first-child {
@@ -1116,7 +1116,7 @@ table {
   -moz-border-radius-topleft: 4px;
 }
 
-/* line 75, ../sass/_bootstrap-tables.scss */
+/* line 75, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered thead:first-child tr:first-child th:last-child, .table-container table thead:first-child tr:first-child th:last-child,
 .table-bordered tbody:first-child tr:first-child td:last-child,
 .table-container table tbody:first-child tr:first-child td:last-child {
@@ -1125,7 +1125,7 @@ table {
   -moz-border-radius-topright: 4px;
 }
 
-/* line 81, ../sass/_bootstrap-tables.scss */
+/* line 81, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered thead:last-child tr:last-child th:first-child, .table-container table thead:last-child tr:last-child th:first-child,
 .table-bordered tbody:last-child tr:last-child td:first-child,
 .table-container table tbody:last-child tr:last-child td:first-child {
@@ -1137,7 +1137,7 @@ table {
   -moz-border-radius-bottomleft: 4px;
 }
 
-/* line 90, ../sass/_bootstrap-tables.scss */
+/* line 90, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-bordered thead:last-child tr:last-child th:last-child, .table-container table thead:last-child tr:last-child th:last-child,
 .table-bordered tbody:last-child tr:last-child td:last-child,
 .table-container table tbody:last-child tr:last-child td:last-child {
@@ -1146,186 +1146,18 @@ table {
   -moz-border-radius-bottomright: 4px;
 }
 
-/* line 96, ../sass/_bootstrap-tables.scss */
+/* line 96, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table-striped tbody tr:nth-child(odd) td, .table-container table tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th,
 .table-container table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-/* line 100, ../sass/_bootstrap-tables.scss */
+/* line 100, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-tables.scss */
 .table tbody tr:hover td, .table-container table tbody tr:hover td,
 .table tbody tr:hover th,
 .table-container table tbody tr:hover th {
   background-color: #f5f5f5;
-}
-
-/* line 103, ../sass/_bootstrap-tables.scss */
-table .span1, table .photos img, .photos table img {
-  float: none;
-  width: 44px;
-  margin-left: 0;
-}
-
-/* line 108, ../sass/_bootstrap-tables.scss */
-table .span2 {
-  float: none;
-  width: 124px;
-  margin-left: 0;
-}
-
-/* line 113, ../sass/_bootstrap-tables.scss */
-table .span3, table .selling-points p, .selling-points table p {
-  float: none;
-  width: 204px;
-  margin-left: 0;
-}
-
-/* line 118, ../sass/_bootstrap-tables.scss */
-table .span4, table .introduction p, .introduction table p {
-  float: none;
-  width: 284px;
-  margin-left: 0;
-}
-
-/* line 123, ../sass/_bootstrap-tables.scss */
-table .span5 {
-  float: none;
-  width: 364px;
-  margin-left: 0;
-}
-
-/* line 128, ../sass/_bootstrap-tables.scss */
-table .span6 {
-  float: none;
-  width: 444px;
-  margin-left: 0;
-}
-
-/* line 133, ../sass/_bootstrap-tables.scss */
-table .span7 {
-  float: none;
-  width: 524px;
-  margin-left: 0;
-}
-
-/* line 138, ../sass/_bootstrap-tables.scss */
-table .span8 {
-  float: none;
-  width: 604px;
-  margin-left: 0;
-}
-
-/* line 143, ../sass/_bootstrap-tables.scss */
-table .span9 {
-  float: none;
-  width: 684px;
-  margin-left: 0;
-}
-
-/* line 148, ../sass/_bootstrap-tables.scss */
-table .span10 {
-  float: none;
-  width: 764px;
-  margin-left: 0;
-}
-
-/* line 153, ../sass/_bootstrap-tables.scss */
-table .span11 {
-  float: none;
-  width: 844px;
-  margin-left: 0;
-}
-
-/* line 158, ../sass/_bootstrap-tables.scss */
-table .span12 {
-  float: none;
-  width: 924px;
-  margin-left: 0;
-}
-
-/* line 163, ../sass/_bootstrap-tables.scss */
-table .span13 {
-  float: none;
-  width: 1004px;
-  margin-left: 0;
-}
-
-/* line 168, ../sass/_bootstrap-tables.scss */
-table .span14 {
-  float: none;
-  width: 1084px;
-  margin-left: 0;
-}
-
-/* line 173, ../sass/_bootstrap-tables.scss */
-table .span15 {
-  float: none;
-  width: 1164px;
-  margin-left: 0;
-}
-
-/* line 178, ../sass/_bootstrap-tables.scss */
-table .span16 {
-  float: none;
-  width: 1244px;
-  margin-left: 0;
-}
-
-/* line 183, ../sass/_bootstrap-tables.scss */
-table .span17 {
-  float: none;
-  width: 1324px;
-  margin-left: 0;
-}
-
-/* line 188, ../sass/_bootstrap-tables.scss */
-table .span18 {
-  float: none;
-  width: 1404px;
-  margin-left: 0;
-}
-
-/* line 193, ../sass/_bootstrap-tables.scss */
-table .span19 {
-  float: none;
-  width: 1484px;
-  margin-left: 0;
-}
-
-/* line 198, ../sass/_bootstrap-tables.scss */
-table .span20 {
-  float: none;
-  width: 1564px;
-  margin-left: 0;
-}
-
-/* line 203, ../sass/_bootstrap-tables.scss */
-table .span21 {
-  float: none;
-  width: 1644px;
-  margin-left: 0;
-}
-
-/* line 208, ../sass/_bootstrap-tables.scss */
-table .span22 {
-  float: none;
-  width: 1724px;
-  margin-left: 0;
-}
-
-/* line 213, ../sass/_bootstrap-tables.scss */
-table .span23 {
-  float: none;
-  width: 1804px;
-  margin-left: 0;
-}
-
-/* line 218, ../sass/_bootstrap-tables.scss */
-table .span24 {
-  float: none;
-  width: 1884px;
-  margin-left: 0;
 }
 
 /* line 23, ../sass/style.scss */
@@ -1367,11 +1199,11 @@ article, div {
   -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
   box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
-/* line 22, ../sass/_my-bootstrap-buttons.scss */
+/* line 22, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .help-button:first-child {
   *margin-left: 0;
 }
-/* line 26, ../sass/_my-bootstrap-buttons.scss */
+/* line 26, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .help-button:hover {
   color: #333333;
   text-decoration: none;
@@ -1389,7 +1221,7 @@ article, div {
   -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-/* line 39, ../sass/_my-bootstrap-buttons.scss */
+/* line 39, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .help-button:active {
   background-color: #63eb47;
   background-image: none;
@@ -1429,11 +1261,11 @@ article, div {
   -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
   box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
-/* line 22, ../sass/_my-bootstrap-buttons.scss */
+/* line 22, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .danger-button:first-child {
   *margin-left: 0;
 }
-/* line 26, ../sass/_my-bootstrap-buttons.scss */
+/* line 26, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .danger-button:hover {
   color: #333333;
   text-decoration: none;
@@ -1451,7 +1283,7 @@ article, div {
   -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-/* line 39, ../sass/_my-bootstrap-buttons.scss */
+/* line 39, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .danger-button:active {
   background-color: #eb0000;
   background-image: none;
@@ -1491,11 +1323,11 @@ article, div {
   -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
   box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
-/* line 22, ../sass/_my-bootstrap-buttons.scss */
+/* line 22, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .buy-button:first-child {
   *margin-left: 0;
 }
-/* line 26, ../sass/_my-bootstrap-buttons.scss */
+/* line 26, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .buy-button:hover {
   color: #333333;
   text-decoration: none;
@@ -1513,7 +1345,7 @@ article, div {
   -o-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-/* line 39, ../sass/_my-bootstrap-buttons.scss */
+/* line 39, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_my-bootstrap-buttons.scss */
 .buy-button:active {
   background-color: #dbdbdb;
   background-image: none;
