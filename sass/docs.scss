@@ -22,76 +22,10 @@
 // $sanity / vanity styling
 // ======================================================================================================
 
-*{
-  box-sizing: border-box;
-}
-
-body{
-  padding: 30px 30px 300px;
-}
-
-article, div{
-  margin-bottom: 18px;
-}
 
 // ======================================================================================================
 // $bootstraperize
 // ======================================================================================================
-
-
-
-.introduction{
-  @extend .row-fluid;
-
-  p{
-    @extend .span4;
-  }
-}
-
-.photos{
-  @extend .row-fluid;
-
-  img{
-    @extend .span1;
-  }
-}
-
-.selling-points{
-  @extend .row-fluid;
-
-  p{
-    @extend .span3;
-  }
-}
-
-.help-button{
-  @include my-button(hsl(110,80,70));
-}
-
-.danger-button{
-  @include my-button(hsl(0,100,56));
-}
-
-.buy-button{
-  @include my-button(hsl(0,0,96));
-}
-
-.table-container{
-  width: 50%;
-  margin: 1em 0;
-
-  table{
-    @extend .table, .table-bordered, .table-striped;
-  }
-}
-
-pre{
-  width: 50%;
-}
-
-fieldset{
-  @extend .form-horizontal;
-}
 
 
 

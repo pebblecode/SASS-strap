@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SASS strap docs</title>
+  
+  <link rel="stylesheet" href="stylesheets/docs.css" type="text/css" />
+  
+</head>
+
+<header>
+  <h1><i>SASSAP!!!</i></h1>
+  <a href="index.html">go to testbed</a>
+</header>
+
+<article class="intro">
+  <h2>Introduction</h2>
+  <p>Sassap is an alternative way of using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> built with <a href="http://sass-lang.com/">SASS</a> & <a href="http://compass-style.org/">Compass</a></p>
+  <p>Sassap aims to solve a few of the problems I see with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> namely...</p>
+  <ul>
+    <li><b>non-semantic:</b> Bootstrap require you to ass classes like <code>.row-fluid</code> to your markup. I would much rather use one or two semantic classes per element than lots of different generic styling / layout classes</li>
+    <li><b>redundant:</b> Bootstrap can do a lot of different things. There is a lot of functionality that I will never use and lots more that I will only use rarely. I would like to decide what parts of bootstrap on a project by project basis.</li>
+    <li><b>pre-styled:</b> Bootstrap provided a lot of pre-styled elements such as buttons. This is good but to customize these elements you either have to write CSS on top of bootstrap that overrides Bootstrap (which learns to lots of unnecessary CSS) or you have to edit Bootstrap. I would prefer to style elements directly.</li>
+  </ul>
+</article>
+
+<article>
+  <h2>Sassap semantics</h2>
+  <p>Sassap uses <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend"><code>@extend</code></a> to apply styles to elements in SCSS rather than applying the classes.</p>
+  <p>Bootstrap original html. no semantic classes no css required.</p>
+  <pre>
+    &lt;article class="row-fluid"&gt;
+      &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+      &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+      &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+    &lt;/article&gt;
+  </pre>
+
+  <p>Sassap html with semantic class names</p>
+  <pre>
+    &lt;article class="sassap-intro"&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+    &lt;/article&gt;
+  </pre>
+
+  <p>Sassap SCSS using <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend"><code>@extend</code></a></p>
+
+  <pre>
+    .introduction{
+      @extend .row-fluid;
+
+      p{
+        @extend .span4;
+      }
+    }
+  </pre>
+
+</article>
+
+</body>
+</html>
