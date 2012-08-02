@@ -69,3 +69,28 @@ article, div{
 .buy-button{
   @include my-button(hsl(0,0,96));
 }
+
+.table-container{
+  width: 50%;
+  margin: 1em 0;
+
+  table{
+    @extend .table, .table-bordered, .table-striped;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1016,14 +1016,15 @@ table {
 }
 
 /* line 11, ../sass/_bootstrap-tables.scss */
-.table {
+.table, .table-container table {
   width: 100%;
   margin-bottom: 18px;
 }
 
 /* line 16, ../sass/_bootstrap-tables.scss */
-.table th,
-.table td {
+.table th, .table-container table th,
+.table td,
+.table-container table td {
   padding: 8px;
   line-height: 18px;
   text-align: left;
@@ -1032,27 +1033,32 @@ table {
 }
 
 /* line 23, ../sass/_bootstrap-tables.scss */
-.table th {
+.table th, .table-container table th {
   font-weight: bold;
 }
 
 /* line 26, ../sass/_bootstrap-tables.scss */
-.table thead th {
+.table thead th, .table-container table thead th {
   vertical-align: bottom;
 }
 
 /* line 34, ../sass/_bootstrap-tables.scss */
-.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child th, .table-container table caption + thead tr:first-child th,
 .table caption + thead tr:first-child td,
+.table-container table caption + thead tr:first-child td,
 .table colgroup + thead tr:first-child th,
+.table-container table colgroup + thead tr:first-child th,
 .table colgroup + thead tr:first-child td,
+.table-container table colgroup + thead tr:first-child td,
 .table thead:first-child tr:first-child th,
-.table thead:first-child tr:first-child td {
+.table-container table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td,
+.table-container table thead:first-child tr:first-child td {
   border-top: 0;
 }
 
 /* line 37, ../sass/_bootstrap-tables.scss */
-.table tbody + tbody {
+.table tbody + tbody, .table-container table tbody + tbody {
   border-top: 2px solid #dddddd;
 }
 
@@ -1063,7 +1069,7 @@ table {
 }
 
 /* line 44, ../sass/_bootstrap-tables.scss */
-.table-bordered {
+.table-bordered, .table-container table {
   border: 1px solid #dddddd;
   border-collapse: separate;
   *border-collapse: collapsed;
@@ -1074,43 +1080,55 @@ table {
 }
 
 /* line 54, ../sass/_bootstrap-tables.scss */
-.table-bordered th,
-.table-bordered td {
+.table-bordered th, .table-container table th,
+.table-bordered td,
+.table-container table td {
   border-left: 1px solid #dddddd;
 }
 
 /* line 65, ../sass/_bootstrap-tables.scss */
-.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + thead tr:first-child th, .table-container table caption + thead tr:first-child th,
 .table-bordered caption + tbody tr:first-child th,
+.table-container table caption + tbody tr:first-child th,
 .table-bordered caption + tbody tr:first-child td,
+.table-container table caption + tbody tr:first-child td,
 .table-bordered colgroup + thead tr:first-child th,
+.table-container table colgroup + thead tr:first-child th,
 .table-bordered colgroup + tbody tr:first-child th,
+.table-container table colgroup + tbody tr:first-child th,
 .table-bordered colgroup + tbody tr:first-child td,
+.table-container table colgroup + tbody tr:first-child td,
 .table-bordered thead:first-child tr:first-child th,
+.table-container table thead:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child th,
-.table-bordered tbody:first-child tr:first-child td {
+.table-container table tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td,
+.table-container table tbody:first-child tr:first-child td {
   border-top: 0;
 }
 
 /* line 69, ../sass/_bootstrap-tables.scss */
-.table-bordered thead:first-child tr:first-child th:first-child,
-.table-bordered tbody:first-child tr:first-child td:first-child {
+.table-bordered thead:first-child tr:first-child th:first-child, .table-container table thead:first-child tr:first-child th:first-child,
+.table-bordered tbody:first-child tr:first-child td:first-child,
+.table-container table tbody:first-child tr:first-child td:first-child {
   -webkit-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
   -moz-border-radius-topleft: 4px;
 }
 
 /* line 75, ../sass/_bootstrap-tables.scss */
-.table-bordered thead:first-child tr:first-child th:last-child,
-.table-bordered tbody:first-child tr:first-child td:last-child {
+.table-bordered thead:first-child tr:first-child th:last-child, .table-container table thead:first-child tr:first-child th:last-child,
+.table-bordered tbody:first-child tr:first-child td:last-child,
+.table-container table tbody:first-child tr:first-child td:last-child {
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   -moz-border-radius-topright: 4px;
 }
 
 /* line 81, ../sass/_bootstrap-tables.scss */
-.table-bordered thead:last-child tr:last-child th:first-child,
-.table-bordered tbody:last-child tr:last-child td:first-child {
+.table-bordered thead:last-child tr:last-child th:first-child, .table-container table thead:last-child tr:last-child th:first-child,
+.table-bordered tbody:last-child tr:last-child td:first-child,
+.table-container table tbody:last-child tr:last-child td:first-child {
   -webkit-border-radius: 0 0 0 4px;
   -moz-border-radius: 0 0 0 4px;
   border-radius: 0 0 0 4px;
@@ -1120,22 +1138,25 @@ table {
 }
 
 /* line 90, ../sass/_bootstrap-tables.scss */
-.table-bordered thead:last-child tr:last-child th:last-child,
-.table-bordered tbody:last-child tr:last-child td:last-child {
+.table-bordered thead:last-child tr:last-child th:last-child, .table-container table thead:last-child tr:last-child th:last-child,
+.table-bordered tbody:last-child tr:last-child td:last-child,
+.table-container table tbody:last-child tr:last-child td:last-child {
   -webkit-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
   -moz-border-radius-bottomright: 4px;
 }
 
 /* line 96, ../sass/_bootstrap-tables.scss */
-.table-striped tbody tr:nth-child(odd) td,
-.table-striped tbody tr:nth-child(odd) th {
+.table-striped tbody tr:nth-child(odd) td, .table-container table tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th,
+.table-container table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
 /* line 100, ../sass/_bootstrap-tables.scss */
-.table tbody tr:hover td,
-.table tbody tr:hover th {
+.table tbody tr:hover td, .table-container table tbody tr:hover td,
+.table tbody tr:hover th,
+.table-container table tbody tr:hover th {
   background-color: #f5f5f5;
 }
 
@@ -1501,4 +1522,10 @@ article, div {
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
   -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
   box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+
+/* line 73, ../sass/style.scss */
+.table-container {
+  width: 50%;
+  margin: 1em 0;
 }
