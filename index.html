@@ -2,112 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>SASS strap</title>
+  <title>SASS strap docs</title>
   
-  <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+  <link rel="stylesheet" href="stylesheets/docs.css" type="text/css" />
   
 </head>
 
-<h1><i>SASSAP!!!</i></h1>
-<a href="docs.html">go to docs</a>
+<header>
+  <h1><i>SASSAP!!!</i></h1>
+  <a href="testbed.html" class="testbed-link">go to testbed</a>
+</header>
 
-
-<article class="introduction">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<article class="intro">
+  <h2>Introduction</h2>
+  <p>Sassap is an alternative way of using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> built with <a href="http://sass-lang.com/">SASS</a> & <a href="http://compass-style.org/">Compass</a></p>
+  <p>Sassap aims to solve a few of the problems I see with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> namely...</p>
+  <ul>
+    <li><b>non-semantic:</b> Bootstrap require you to ass classes like <code>.row-fluid</code> to your markup. I would much rather use one or two semantic classes per element than lots of different generic styling / layout classes</li>
+    <li><b>redundant:</b> Bootstrap can do a lot of different things. There is a lot of functionality that I will never use and lots more that I will only use rarely. I would like to decide what parts of bootstrap on a project by project basis.</li>
+    <li><b>pre-styled:</b> Bootstrap provided a lot of pre-styled elements such as buttons. This is good but to customize these elements you either have to write CSS on top of bootstrap that overrides Bootstrap (which learns to lots of unnecessary CSS) or you have to edit Bootstrap. I would prefer to style elements directly.</li>
+  </ul>
 </article>
 
-<article class="row-fluid">
-  <p class="span4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  <p class="span4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  <p class="span4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</article>
+<article>
+  <h2>Sassap semantics</h2>
+  <p>Sassap uses <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend"><code>@extend</code></a> to apply styles to elements in SCSS rather than applying the classes directly to the html.</p>
+  <p>Bootstrap original html. no semantic classes no css required.</p>
+  <pre>
+&lt;article class="row-fluid"&gt;
+  &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+  &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+  &lt;p class="span4"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+&lt;/article&gt;</pre>
 
-<div class="photos">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-  <img src="/img/place-holder.svg">
-</div>
+  <p>Sassap html with semantic class names</p>
+  <pre>
+&lt;article class="sassap-intro"&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p&gt;
+&lt;/article&gt;</pre>
 
-<article class="selling-points"> 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</article>
+  <p>Sassap SCSS using <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend"><code>@extend</code></a></p>
 
-<a href="#" class="help-button">help</a>
-<a href="#" class="danger-button">danger</a>
-<a href="#" class="buy-button">buy me</a>
+  <pre>
+.introduction{
+  @extend .row-fluid;
 
-<div class="table-container">
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Username</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<p>this is a piece of code <code>$('.code').css('color':'red');</code> isn't that nice?</p>
-
-<pre>
-  .table-container{
-    width: 50%;
-    margin: 1em 0;
-    table{
-      @extend .table, .table-bordered, .table-striped;
-    }
+  p{
+    @extend .span4;
   }
-</pre>
+}</pre>
+</article>
 
-<form>
-  <fieldset>
-    
-    <select>
-      <option>something one</option>
-      <option>something two</option>
-      <option>something three</option>
-      <option>something four</option>
-    </select>
+<article>
+  <h2>Sassap concise</h2>
+  <p>Sassap separates bootstrap out into several different files so you can pick and choose which parts you use in your project. This is achieved by using <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#import"><code>@import</code></a> Add the list of imports to the top of your main SCSS file  and comment out the parts of bootstrap you don't need.</p>
 
-    <input type="text">
-  </fieldset>
-</form>
+  <p>Sassap <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#import"><code>@import</code></a></p>
+  <pre>
+// Get all that CSS3 goodness from compass
+@import "compass/css3";
 
+// Twitter bootstrap inmports
+@import "bootstrap-normalize";
+@import "bootstrap-fluid-grid";
+@import "bootstrap-buttons";
+@import "bootstrap-typography";
+@import "bootstrap-tables";
+@import "bootstrap-code";
+
+// disable bootstrap forms support
+//@import "bootstrap-forms";</pre>
+</article>
+
+<article>
+  <h2>Sassap styling</h2>
+  <p>Bootstrap uses several generic style classes to add variety to buttons.</p>
+  <a href="#" class="btn">class="btn"</a>
+  <a href="#" class="btn btn-primary">class="btn btn-primary"</a>
+  <a href="#" class="btn btn-danger">class="btn btn-danger"</a>
+
+  <p>Sassap uses <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#mixins"><code>@mixin</code></a> with arguments to create an infinite variety of buttons.</p>
+
+  <pre>
+.button-help{
+  @include my-button(hsl(0,0,96));
+}
+
+.button-hacked{
+  @include my-button(hsl(0,90,60));
+}
+
+.button-winner{
+  @include my-button(hsl(200,100,50));
+}</pre>
+
+  <a href="#" class="button-help">(hsl(0,0,96)</a>
+  <a href="#" class="button-hacked">(hsl(0,90,60)</a>
+  <a href="#" class="button-winner">(hsl(200,100,50)</a>
+</article>
 </body>
 </html>
+
+
+
+
+
+
+
