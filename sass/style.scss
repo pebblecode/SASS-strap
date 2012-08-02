@@ -8,61 +8,12 @@
 // Twitter bootstrap inmports
 @import "bootstrap-normalize";
 @import "bootstrap-fluid-grid";
-//@import "bootstrap-buttons";
+@import "bootstrap-buttons";
 @import "bootstrap-typography";
 @import "bootstrap-tables";
 
-//@import "my-bootstrap-buttons";
-
-
-// ======================================================================================================
-// $my mixins
-// ======================================================================================================
-
-@mixin my-button($color){ 
-  display: inline-block;
-  padding: 4px 10px 4px;
-  font-size: 13px;
-  line-height: 18px;
-  color: #333333;
-  text-align: center;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-  background-color: $color;
-  @include background-image(linear-gradient(lighten($color, 10), darken($color, 10)));
-  background-size: 0 150%;
-  border: 1px solid darken($color,15);
-  border-bottom-color: darken($color,25);
-  @include border-radius(4px);
-  @include box-shadow(inset rgba(255,255,255,.2) 0 1px 0, rgba(0,0,0,.25) 0 1px 2px);
-
-  &:first-child {
-    *margin-left: 0;
-  }
-
-  &:hover {
-    color: #333333;
-    text-decoration: none;
-
-    border: 1px solid darken($color,20);
-    border-bottom-color: darken($color,30);
-
-    background-position: 0 100%;
-
-    @include transition-property(background-position);
-    @include transition-duration(0.1s);
-  }
-
-  &:active {
-    background-color: darken($color,10);
-    background-image: none;
-    outline: 0;
-
-    border: 1px solid darken($color,30);
-
-    @include box-shadow(inset rgba(0,0,0,.1)0 2px 2px , rgba(0,0,0,.25) 0 1px 2px);
-  }
-}
+//my imports
+@import "my-bootstrap-buttons";
 
 
 // ======================================================================================================

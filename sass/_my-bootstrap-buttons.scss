@@ -1,10 +1,8 @@
 // ======================================================================================================
-// $button (from twitter bootstrap)
+// $my button (with color change)
 // ======================================================================================================
 
-$color: hsl(200,100,70);
-
-.btn {
+@mixin my-button($color){ 
   display: inline-block;
   padding: 4px 10px 4px;
   font-size: 13px;
