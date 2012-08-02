@@ -47,7 +47,11 @@ article, div{
 // $bootstraperize
 // ======================================================================================================
 
-
+h1{
+  font-size: 8em;
+  margin: .3em 0 .5em;
+  color: hsl(330,100,50);
+}
 
 .introduction{
   @extend .row-fluid;
@@ -102,7 +106,37 @@ fieldset{
   @extend .form-horizontal;
 }
 
+.badass{
+  color: white;
+  background-color: hsl(330,100,50);
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: .4em .8em;
+  @include border-top-radius(.4em);
+  @include border-bottom-radius(.45em);
+  @include text-shadow(hsla(0,0,0,.2) 0 3px);
+  @include box-shadow(hsla(0,0,0,.2) 0 2px 3px 1px);
+  border: 2px solid hsl(330,100,40);
+  border-bottom: 5px solid hsl(330,100,35);;
+  position: relative;
+  //@include transition-property(all);
+  //@include transition-duration(.15s);
 
+
+  &:hover{
+    color: white;
+    text-decoration: none;
+    background-color: hsl(330,100,45);
+    border: 2px solid hsl(330,100,35);
+    border-bottom: 5px solid hsl(330,100,30);
+  }
+
+  &:active{
+    top: 3px;
+    background-color: hsl(330,100,40);
+    border-bottom: 2px solid hsl(330,100,30);;
+  }
+}
 
 
 
