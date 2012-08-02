@@ -2060,3 +2060,222 @@ legend + .control-group {
 .form-horizontal .form-actions {
   padding-left: 160px;
 }
+
+/* line 25, ../sass/docs.scss */
+body {
+  padding: 50px 30px 300px;
+}
+
+/* line 29, ../sass/docs.scss */
+.btn {
+  margin-bottom: 13px;
+}
+
+/* line 33, ../sass/docs.scss */
+h1 {
+  font-size: 66px;
+  display: inline-block;
+  margin: 0 20px 40px 0;
+}
+
+/* line 39, ../sass/docs.scss */
+.testbed-link {
+  position: relative;
+  top: -50px;
+}
+
+/* line 44, ../sass/docs.scss */
+h1, h2, a {
+  color: #e60099;
+}
+
+/* line 48, ../sass/docs.scss */
+article {
+  margin-bottom: 30px;
+}
+
+/* line 56, ../sass/docs.scss */
+.button-help {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  background-color: #f5f5f5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dbdbdb));
+  background-image: -webkit-linear-gradient(#ffffff, #dbdbdb);
+  background-image: -moz-linear-gradient(#ffffff, #dbdbdb);
+  background-image: -o-linear-gradient(#ffffff, #dbdbdb);
+  background-image: -ms-linear-gradient(#ffffff, #dbdbdb);
+  background-image: linear-gradient(#ffffff, #dbdbdb);
+  background-size: 0 150%;
+  border: 1px solid #cfcfcf;
+  border-bottom-color: #b5b5b5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+/* line 22, ../sass/_my-bootstrap-buttons.scss */
+.button-help:first-child {
+  *margin-left: 0;
+}
+/* line 26, ../sass/_my-bootstrap-buttons.scss */
+.button-help:hover {
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #c2c2c2;
+  border-bottom-color: #a8a8a8;
+  background-position: 0 100%;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -ms-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 39, ../sass/_my-bootstrap-buttons.scss */
+.button-help:active {
+  background-color: #dbdbdb;
+  background-image: none;
+  outline: 0;
+  border: 1px solid #a8a8a8;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+
+/* line 60, ../sass/docs.scss */
+.button-hacked {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  background-color: #f53d3d;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f76e6e), color-stop(100%, #f20d0d));
+  background-image: -webkit-linear-gradient(#f76e6e, #f20d0d);
+  background-image: -moz-linear-gradient(#f76e6e, #f20d0d);
+  background-image: -o-linear-gradient(#f76e6e, #f20d0d);
+  background-image: -ms-linear-gradient(#f76e6e, #f20d0d);
+  background-image: linear-gradient(#f76e6e, #f20d0d);
+  background-size: 0 150%;
+  border: 1px solid #da0b0b;
+  border-bottom-color: #aa0909;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+/* line 22, ../sass/_my-bootstrap-buttons.scss */
+.button-hacked:first-child {
+  *margin-left: 0;
+}
+/* line 26, ../sass/_my-bootstrap-buttons.scss */
+.button-hacked:hover {
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #c20a0a;
+  border-bottom-color: #910808;
+  background-position: 0 100%;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -ms-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 39, ../sass/_my-bootstrap-buttons.scss */
+.button-hacked:active {
+  background-color: #f20d0d;
+  background-image: none;
+  outline: 0;
+  border: 1px solid #910808;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+
+/* line 64, ../sass/docs.scss */
+.button-winner {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  background-color: #00aaff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #33bbff), color-stop(100%, #0088cc));
+  background-image: -webkit-linear-gradient(#33bbff, #0088cc);
+  background-image: -moz-linear-gradient(#33bbff, #0088cc);
+  background-image: -o-linear-gradient(#33bbff, #0088cc);
+  background-image: -ms-linear-gradient(#33bbff, #0088cc);
+  background-image: linear-gradient(#33bbff, #0088cc);
+  background-size: 0 150%;
+  border: 1px solid #0077b3;
+  border-bottom-color: #005580;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}
+/* line 22, ../sass/_my-bootstrap-buttons.scss */
+.button-winner:first-child {
+  *margin-left: 0;
+}
+/* line 26, ../sass/_my-bootstrap-buttons.scss */
+.button-winner:hover {
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #006699;
+  border-bottom-color: #004466;
+  background-position: 0 100%;
+  -webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -ms-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 39, ../sass/_my-bootstrap-buttons.scss */
+.button-winner:active {
+  background-color: #0088cc;
+  background-image: none;
+  outline: 0;
+  border: 1px solid #004466;
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
+}

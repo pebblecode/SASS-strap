@@ -22,20 +22,46 @@
 // $sanity / vanity styling
 // ======================================================================================================
 
+body{
+  padding: 50px 30px 300px;
+}
+
+.btn{
+  margin-bottom: 13px;
+}
+
+h1{
+  font-size: 66px;
+  display: inline-block;
+  margin: 0 20px 40px 0;
+}
+
+.testbed-link{
+  position: relative;
+  top: -50px;
+}
+
+h1,h2, a{
+  color: hsl(320,100,45);
+}
+
+article{
+  margin-bottom: 30px;
+}
 
 // ======================================================================================================
 // $bootstraperize
 // ======================================================================================================
 
+.button-help{
+  @include my-button(hsl(0,0,96));
+}
 
+.button-hacked{
+  @include my-button(hsl(0,90,60));
+}
 
-
-
-
-
-
-
-
-
-
+.button-winner{
+  @include my-button(hsl(200,100,50));
+}
 
