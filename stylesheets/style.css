@@ -1160,17 +1160,75 @@ table {
   background-color: #f5f5f5;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 6, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #333333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 15, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+code {
+  padding: 2px 4px;
+  color: #d14;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+/* line 21, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+pre {
+  display: block;
+  padding: 8.5px;
+  margin: 0 0 9px;
+  font-size: 12.025px;
+  line-height: 18px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 38, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+pre.prettyprint {
+  margin-bottom: 18px;
+}
+
+/* line 41, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+pre code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 47, /Users/markdurrant/Dropbox/repros/SASS-strap/sass/_bootstrap-code.scss */
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+/* line 24, ../sass/style.scss */
 body {
   padding: 30px;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 article, div {
   margin-bottom: 18px;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .help-button {
   display: inline-block;
   padding: 4px 10px 4px;
@@ -1232,7 +1290,7 @@ article, div {
   box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .danger-button {
   display: inline-block;
   padding: 4px 10px 4px;
@@ -1294,7 +1352,7 @@ article, div {
   box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .buy-button {
   display: inline-block;
   padding: 4px 10px 4px;
@@ -1356,7 +1414,7 @@ article, div {
   box-shadow: inset rgba(0, 0, 0, 0.1) 0 2px 2px, rgba(0, 0, 0, 0.25) 0 1px 2px;
 }
 
-/* line 73, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .table-container {
   width: 50%;
   margin: 1em 0;
