@@ -3,22 +3,22 @@
 // ======================================================================================================
 
 // Twitter bootstrap inmports
-@import "bootstrap-imports/bootstrap-normalize";
-@import "bootstrap-imports/bootstrap-fluid-grid";
-@import "bootstrap-imports/bootstrap-typography";
-@import "bootstrap-imports/bootstrap-buttons";
-@import "bootstrap-imports/bootstrap-tables";
-@import "bootstrap-imports/bootstrap-code";
-@import "bootstrap-imports/bootstrap-forms";
-@import "bootstrap-imports/bootstrap-nav-tab-pill";
-@import "bootstrap-imports/bootstrap-navbar";
-@import "bootstrap-imports/bootstrap-pagination";
-@import "bootstrap-imports/bootstrap-pager";
-@import "bootstrap-imports/bootstrap-thumbnails";
-@import "bootstrap-imports/bootstrap-breadcrumbs";
-@import "bootstrap-imports/bootstrap-alert";
-@import "bootstrap-imports/bootstrap-progress-bars";
-@import "bootstrap-imports/bootstrap-hero-unit";
+@import "sass-strap/bootstrap-normalize";
+@import "sass-strap/bootstrap-fluid-grid";
+@import "sass-strap/bootstrap-typography";
+@import "sass-strap/bootstrap-buttons";
+@import "sass-strap/bootstrap-tables";
+@import "sass-strap/bootstrap-code";
+@import "sass-strap/bootstrap-forms";
+@import "sass-strap/bootstrap-nav-tab-pill";
+@import "sass-strap/bootstrap-navbar";
+@import "sass-strap/bootstrap-pagination";
+@import "sass-strap/bootstrap-pager";
+@import "sass-strap/bootstrap-thumbnails";
+@import "sass-strap/bootstrap-breadcrumbs";
+@import "sass-strap/bootstrap-alert";
+@import "sass-strap/bootstrap-progress-bars";
+@import "sass-strap/bootstrap-hero-unit";
 
 
 // ======================================================================================================
@@ -42,12 +42,25 @@ nav{
 }
 
 .wrap{
-  width: 60%;
-  margin: 100px auto 0;
+  width: 80%;
+  margin: 80px auto 0;
+}
+
+footer{
+  margin-top: 120px
 }
 
 .intro{
   @extend .hero-unit;
+  margin-bottom: -40px;
+
+  p{
+    margin: 10px 0 15px;
+  }
+}
+
+.github-link{
+  @extend .btn, .btn-primary, .btn-large;
 }
 
 .learn-more{
@@ -73,3 +86,47 @@ nav{
 .nav-links{
   @extend .nav;
 }
+
+.code-examples{
+  @extend .row-fluid;
+
+  pre{
+    @extend .span6;
+  }
+}
+
+#import{
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+// code highlighting
+// =====================
+
+.highlight{
+  &.comment{
+    color: hsl(0,0,70);
+  }
+
+  &.import{
+    color: hsl(30,80,50);
+  }
+
+  &.element{
+    color: hsl(0,100,40);
+  }
+  &.file{
+    color: hsl(100,80,40);
+  }
+
+  &.text{
+    color: hsl(200,50,50);
+  }
+}
+
+
+
