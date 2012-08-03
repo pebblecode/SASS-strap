@@ -2,106 +2,131 @@
 // $imports
 // ======================================================================================================
 
-// Get all that CSS3 goodness from compass
-@import "compass/css3";
-
 // Twitter bootstrap inmports
-@import "bootstrap-normalize";
-@import "bootstrap-fluid-grid";
-@import "bootstrap-buttons";
-@import "bootstrap-typography";
-@import "bootstrap-tables";
-@import "bootstrap-code";
-@import "bootstrap-forms";
-
-//my imports
-@import "my-bootstrap-buttons";
+@import "sass-strap/bootstrap-normalize";
+@import "sass-strap/bootstrap-fluid-grid";
+@import "sass-strap/bootstrap-typography";
+@import "sass-strap/bootstrap-buttons";
+@import "sass-strap/bootstrap-tables";
+@import "sass-strap/bootstrap-code";
+@import "sass-strap/bootstrap-forms";
+@import "sass-strap/bootstrap-nav-tab-pill";
+@import "sass-strap/bootstrap-navbar";
+@import "sass-strap/bootstrap-pagination";
+@import "sass-strap/bootstrap-pager";
+@import "sass-strap/bootstrap-thumbnails";
+@import "sass-strap/bootstrap-breadcrumbs";
+@import "sass-strap/bootstrap-alert";
+@import "sass-strap/bootstrap-progress-bars";
+@import "sass-strap/bootstrap-hero-unit";
 
 
 // ======================================================================================================
 // $sanity / vanity styling
 // ======================================================================================================
 
-*{
-  box-sizing: border-box;
-}
-
-body{
-  padding: 30px 30px 300px;
-}
-
-article, div{
-  margin-bottom: 18px;
-}
-
 // ======================================================================================================
 // $bootstraperize
 // ======================================================================================================
 
+header{
+  @extend .navbar, .navbar-fixed-top;
 
+  div{
+    padding: 0 5%;
+  }
+}
 
-.introduction{
-  @extend .row-fluid;
+nav{
+  @extend .navbar-inner;
+}
+
+.wrap{
+  width: 80%;
+  margin: 80px auto 0;
+}
+
+footer{
+  margin-top: 120px
+}
+
+.intro{
+  @extend .hero-unit;
+  margin-bottom: -40px;
 
   p{
+    margin: 10px 0 15px;
+  }
+}
+
+.github-link{
+  @extend .btn, .btn-primary, .btn-large;
+}
+
+.learn-more{
+  @extend .btn, .btn-primary, .btn-large;  
+}
+
+.marketing{
+  @extend .row-fluid;
+
+  div{
     @extend .span4;
   }
+
+  a{
+    @extend .btn;
+  }
 }
 
-.photos{
+.logo{
+  @extend .brand;
+}
+
+.nav-links{
+  @extend .nav;
+}
+
+.code-examples{
   @extend .row-fluid;
 
-  img{
-    @extend .span1;
+  pre{
+    @extend .span6;
   }
 }
 
-.selling-points{
-  @extend .row-fluid;
+#import{
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
 
-  p{
-    @extend .span3;
+h1{
+  margin-bottom: 10px;
+}
+
+// code highlighting
+// =====================
+
+.highlight{
+  &.comment{
+    color: hsl(0,0,70);
+  }
+
+  &.import{
+    color: hsl(30,80,50);
+  }
+
+  &.element{
+    color: hsl(0,100,40);
+  }
+  &.file{
+    color: hsl(100,80,40);
+  }
+
+  &.text{
+    color: hsl(200,50,50);
   }
 }
-
-.help-button{
-  @include my-button(hsl(110,80,70));
-}
-
-.danger-button{
-  @include my-button(hsl(0,100,56));
-}
-
-.buy-button{
-  @include my-button(hsl(0,0,96));
-}
-
-.table-container{
-  width: 50%;
-  margin: 1em 0;
-
-  table{
-    @extend .table, .table-bordered, .table-striped;
-  }
-}
-
-pre{
-  width: 50%;
-}
-
-fieldset{
-  @extend .form-horizontal;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
