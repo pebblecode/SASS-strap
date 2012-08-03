@@ -1,0 +1,70 @@
+// ======================================================================================================
+// $imports
+// ======================================================================================================
+
+// Get all that CSS3 goodness from compass
+@import "compass/css3";
+
+// Twitter bootstrap inmports
+@import "bootstrap-normalize";
+@import "bootstrap-fluid-grid";
+@import "bootstrap-buttons";
+@import "bootstrap-typography";
+@import "bootstrap-tables";
+@import "bootstrap-code";
+@import "bootstrap-forms";
+@import "bootstrap-nav-tab-pill";
+@import "bootstrap-navbar";
+@import "bootstrap-pagination";
+@import "bootstrap-pager";
+@import "bootstrap-thumbnails";
+@import "bootstrap-breadcrumbs";
+@import "bootstrap-alert";
+@import "bootstrap-progress-bars";
+@import "bootstrap-hero-unit";
+
+
+// ======================================================================================================
+// $sanity / vanity styling
+// ======================================================================================================
+
+// ======================================================================================================
+// $bootstraperize
+// ======================================================================================================
+
+header{
+  @extend .navbar, .navbar-fixed-top;
+}
+
+nav{
+  @extend .navbar-inner;
+}
+
+.wrap{
+  width: 60%;
+  margin: 100px auto 0;
+}
+
+.intro{
+  @extend .hero-unit;
+}
+
+.learn-more{
+  @extend .btn, .btn-primary, .btn-large;  
+}
+
+.marketing{
+  @extend .row-fluid;
+
+  div{
+    @extend .span4;
+  }
+
+  a{
+    @extend .btn;
+  }
+}
+
+.logo{
+  @extend .brand;
+}
