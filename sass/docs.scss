@@ -8,60 +8,71 @@
 // Twitter bootstrap inmports
 @import "bootstrap-normalize";
 @import "bootstrap-fluid-grid";
-@import "bootstrap-buttons";
 @import "bootstrap-typography";
+@import "bootstrap-buttons";
 @import "bootstrap-tables";
 @import "bootstrap-code";
 @import "bootstrap-forms";
-
-//my imports
-@import "my-bootstrap-buttons";
+@import "bootstrap-nav-tab-pill";
+@import "bootstrap-navbar";
+@import "bootstrap-pagination";
+@import "bootstrap-pager";
+@import "bootstrap-thumbnails";
+@import "bootstrap-breadcrumbs";
+@import "bootstrap-alert";
+@import "bootstrap-progress-bars";
+@import "bootstrap-hero-unit";
 
 
 // ======================================================================================================
 // $sanity / vanity styling
 // ======================================================================================================
 
-body{
-  padding: 50px 30px 300px;
-}
-
-.btn{
-  margin-bottom: 13px;
-}
-
-h1{
-  font-size: 66px;
-  display: inline-block;
-  margin: 0 20px 40px 0;
-}
-
-.testbed-link{
-  position: relative;
-  top: -50px;
-}
-
-h1,h2, a{
-  color: hsl(320,100,45);
-}
-
-article{
-  margin-bottom: 30px;
-}
-
 // ======================================================================================================
 // $bootstraperize
 // ======================================================================================================
 
-.button-help{
-  @include my-button(hsl(0,0,96));
+header{
+  @extend .navbar, .navbar-fixed-top;
+
+  div{
+    padding: 0 5%;
+  }
 }
 
-.button-hacked{
-  @include my-button(hsl(0,90,60));
+nav{
+  @extend .navbar-inner;
 }
 
-.button-winner{
-  @include my-button(hsl(200,100,50));
+.wrap{
+  width: 60%;
+  margin: 100px auto 0;
 }
 
+.intro{
+  @extend .hero-unit;
+}
+
+.learn-more{
+  @extend .btn, .btn-primary, .btn-large;  
+}
+
+.marketing{
+  @extend .row-fluid;
+
+  div{
+    @extend .span4;
+  }
+
+  a{
+    @extend .btn;
+  }
+}
+
+.logo{
+  @extend .brand;
+}
+
+.nav-links{
+  @extend .nav;
+}
